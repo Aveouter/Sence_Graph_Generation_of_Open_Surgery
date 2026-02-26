@@ -1,0 +1,26 @@
+name: hsg
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - defaults
+
+dependencies:
+  - python<=3.10.8
+  - numpy
+  - hickle
+  - lightning
+  - pytorch<=2.1.1
+  - xarray==0.19.0
+  - pip
+  - pip:
+      - decord
+      - fvcore
+      - lpips
+      - pandas
+      - scikit-image<=0.19.3
+      - timm<=0.6.11
+      - tqdm
+      - einops
+
+# prefix: D:/Software/Miniconda/envs/hsg
